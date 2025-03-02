@@ -10,4 +10,6 @@ https://youtu.be/L-C7bQM-OO8?si=stKSdcbg_Vdvy9Qe (Secure API Gateway using Lambd
 
 https://youtu.be/xSKRyv08mo8?si=lkz-MJXIYSwQRi-L (Build Serverless Web Application on AWS | AWS Amplify)
 
+https://medium.com/@inderjotsingh141/aws-serverless-hands-on-project-b678f69f5e98
+
 #
