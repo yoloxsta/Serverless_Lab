@@ -26,3 +26,5 @@ https://praveendandu24.medium.com/mastering-istio-service-mesh-basics-a-comprehe
 https://ankanwrites.hashnode.dev/implementing-istio-for-microservices-management-a-how-to-guide
 
 https://medium.com/@muppedaanvesh/getting-started-with-istio-a-hands-on-guide-for-beginners-0f73939e153a
+
+https://medium.com/@eshant.sah/istio-in-simple-words-with-hands-on-34fef2b2735d 
