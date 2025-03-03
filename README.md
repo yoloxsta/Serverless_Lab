@@ -21,3 +21,4 @@ https://harsh05.medium.com/amazon-efs-a-comprehensive-guide-with-practical-steps
 
 ## Istio
 
+https://praveendandu24.medium.com/mastering-istio-service-mesh-basics-a-comprehensive-guide-with-real-time-examples-6fbd6d6322ba#:~:text=Envoy%20is%20a%20high%2Dperformance,policies%20and%20collecting%20telemetry%20data.
