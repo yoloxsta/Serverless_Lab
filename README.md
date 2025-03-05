@@ -38,3 +38,5 @@ https://medium.com/@eshant.sah/istio-in-simple-words-with-hands-on-34fef2b2735d
 https://medium.com/@muppedaanvesh/a-hands-on-guide-to-kubernetes-logging-using-grafana-loki-%EF%B8%8F-b8d37ea4de13
 
 https://aws.plainenglish.io/building-a-centralized-logging-solution-with-grafana-loki-7794c198d45c
+
+https://medium.com/@abdulfayis/using-prometheus-loki-and-grafana-to-monitor-in-kubernetes-904dc7ac9143 
