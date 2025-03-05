@@ -33,3 +33,6 @@ https://medium.com/@eshant.sah/istio-in-simple-words-with-hands-on-34fef2b2735d
 
 #
 
+## Monitoring
+
+https://medium.com/@muppedaanvesh/a-hands-on-guide-to-kubernetes-logging-using-grafana-loki-%EF%B8%8F-b8d37ea4de13
