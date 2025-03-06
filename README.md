@@ -43,3 +43,4 @@ https://medium.com/@abdulfayis/using-prometheus-loki-and-grafana-to-monitor-in-k
 
 https://harshitsahu2311.hashnode.dev/mini-project-github-monitoring-using-grafana
 
+https://readmedium.com/en/https:/alexandrev.medium.com/how-to-deploy-scalable-loki-on-kubernetes-592566be0982 
