@@ -40,3 +40,5 @@ https://medium.com/@muppedaanvesh/a-hands-on-guide-to-kubernetes-logging-using-g
 https://aws.plainenglish.io/building-a-centralized-logging-solution-with-grafana-loki-7794c198d45c
 
 https://medium.com/@abdulfayis/using-prometheus-loki-and-grafana-to-monitor-in-kubernetes-904dc7ac9143 
+
+https://harshitsahu2311.hashnode.dev/mini-project-github-monitoring-using-grafana
