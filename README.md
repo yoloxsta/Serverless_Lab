@@ -48,3 +48,5 @@ https://readmedium.com/en/https:/alexandrev.medium.com/how-to-deploy-scalable-lo
 
 https://blog.devops.dev/aws-eks-monitoring-d94827a0c57f
 ##
+
+https://aws.plainenglish.io/how-to-install-nginx-ingress-controller-in-aws-eks-6a15713ef4ab
