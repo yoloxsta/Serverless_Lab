@@ -31,6 +31,7 @@ https://medium.com/@muppedaanvesh/getting-started-with-istio-a-hands-on-guide-fo
 
 https://medium.com/@eshant.sah/istio-in-simple-words-with-hands-on-34fef2b2735d 
 
+https://jay75chauhan.medium.com/setting-up-istio-on-minikube-and-other-kubernetes-clusters-with-kiali-dashboard-17b9a1b22598
 #
 
 ## Monitoring
