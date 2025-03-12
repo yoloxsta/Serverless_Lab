@@ -55,4 +55,7 @@ https://aws.plainenglish.io/how-to-install-nginx-ingress-controller-in-aws-eks-6
 ```
 kubectl patch svc prometheus-grafana -n prometheus-grafana -p '{"spec": {"type": "NodePort"}}'
 
+kubectl patch ingress nginx-ingress -p '{"spec": {"ingressClassName": "nginx"}}' --type=merge
+
+
 ```
