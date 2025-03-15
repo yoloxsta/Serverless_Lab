@@ -103,6 +103,15 @@ spec:
 ```
 🔹 Key Differences
 
+| Feature      | VirtualService                | DestinationRuleS  |
+|--------------|-----------------------------|---------|
+| Purpose |   |  |
+| Traffic Splitting	 |   |  |
+| Path-based Routing	 |   |  |
+| Subsets |   |  |
+| Load Balancing |   |  |
+| Retries & Timeouts	 |   |  |
+| Connection Pooling	 |   |  |
 
 #
 
