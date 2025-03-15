@@ -105,13 +105,13 @@ spec:
 
 | Feature      | VirtualService                | DestinationRuleS  |
 |--------------|-----------------------------|---------|
-| Purpose |   |  |
-| Traffic Splitting	 |   |  |
-| Path-based Routing	 |   |  |
-| Subsets |   |  |
-| Load Balancing |   |  |
-| Retries & Timeouts	 |   |  |
-| Connection Pooling	 |   |  |
+| Purpose | Routes requests to the correct service	  | Defines traffic policies for routed requests |
+| Traffic Splitting	 | ✅ Yes (e.g., 80% to v1, 20% to v2)  | ❌ No |
+| Path-based Routing | ✅ Yes (e.g., /api → backend)	  | ❌ No |
+| Subsets | ✅ References subsets  | ✅ Defines subsets (v1, v2) |
+| Load Balancing | ❌ No	  | ✅ Yes (Round Robin, Least Connections, etc.) |
+| Retries & Timeouts	 | ✅ Yes  | ✅ Yes |
+| Connection Pooling	 | ❌ No  | ✅ Yes |
 
 #
 
