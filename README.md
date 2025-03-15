@@ -34,7 +34,16 @@ https://medium.com/@eshant.sah/istio-in-simple-words-with-hands-on-34fef2b2735d
 https://jay75chauhan.medium.com/setting-up-istio-on-minikube-and-other-kubernetes-clusters-with-kiali-dashboard-17b9a1b22598
 
 ### VirtualService vs DestinationRule in Istio
+- Both VirtualService and DestinationRule work together to control traffic in Istio, but they serve different purposes.
+#### VirtualService (Traffic Routing)
+- A VirtualService defines how incoming requests are routed to a service.
+It specifies hostnames, traffic rules, path rewrites, weighted routing, retries, and fault injection.
 
+🔹 Key Responsibilities:
+- Defines routing rules based on path, headers, or other request properties.
+- Supports traffic splitting (e.g., 80% to v1, 20% to v2).
+- Performs URI rewriting and redirection.
+- Attaches to a Gateway for ingress traffic.
 
 #
 
