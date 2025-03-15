@@ -103,7 +103,7 @@ spec:
 ```
 🔹 Key Differences
 
-| Feature      | VirtualService                | DestinationRuleS  |
+| Feature      | VirtualService                | DestinationRule  |
 |--------------|-----------------------------|---------|
 | Purpose | Routes requests to the correct service	  | Defines traffic policies for routed requests |
 | Traffic Splitting	 | ✅ Yes (e.g., 80% to v1, 20% to v2)  | ❌ No |
