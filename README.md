@@ -117,6 +117,10 @@ spec:
 - DestinationRule defines subsets (e.g., v1, v2).
 - VirtualService routes traffic based on path, weight, or headers.
 - Traffic flows through Istio’s Envoy proxies based on these rules.
+
+🔹 Conclusion
+- Use VirtualService to control request routing (paths, weights, retries).
+- Use DestinationRule to define subsets and apply traffic policies.
 #
 
 ## Monitoring
