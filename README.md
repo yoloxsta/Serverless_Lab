@@ -72,6 +72,15 @@ spec:
 
 ```
 
+#### DestinationRule (Traffic Policies & Load Balancing)
+- A DestinationRule defines traffic policies (e.g., load balancing, timeouts, connection pools) for a service after it has been routed by a VirtualService.
+
+🔹 Key Responsibilities:
+- Defines subsets of a service (e.g., v1, v2 based on labels).
+- Configures load balancing (round-robin, least connections, etc.).
+- Applies connection pooling (limits requests per connection).
+- Controls failover & traffic policies.
+
 
 #
 
