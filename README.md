@@ -81,6 +81,7 @@ spec:
 - Applies connection pooling (limits requests per connection).
 - Controls failover & traffic policies.
 
+🔹 Example DestinationRule (Defining v1 & v2 Subsets)
 
 #
 
