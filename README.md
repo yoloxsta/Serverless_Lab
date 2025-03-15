@@ -113,6 +113,10 @@ spec:
 | Retries & Timeouts	 | ✅ Yes  | ✅ Yes |
 | Connection Pooling	 | ❌ No  | ✅ Yes |
 
+🔹 How They Work Together
+- DestinationRule defines subsets (e.g., v1, v2).
+- VirtualService routes traffic based on path, weight, or headers.
+- Traffic flows through Istio’s Envoy proxies based on these rules.
 #
 
 ## Monitoring
