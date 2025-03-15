@@ -45,6 +45,34 @@ It specifies hostnames, traffic rules, path rewrites, weighted routing, retries,
 - Performs URI rewriting and redirection.
 - Attaches to a Gateway for ingress traffic.
 
+🔹 Example VirtualService (Traffic Splitting 80-20)
+```
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: myapp
+spec:
+  hosts:
+  - "myapp.example.com"
+  gateways:
+  - myapp-gateway
+  http:
+  - match:
+    - uri:
+        prefix: /myapp
+    route:
+    - destination:
+        host: myapp
+        subset: v1
+      weight: 80
+    - destination:
+        host: myapp
+        subset: v2
+      weight: 20
+
+```
+
+
 #
 
 ## Monitoring
