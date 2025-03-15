@@ -82,6 +82,25 @@ spec:
 - Controls failover & traffic policies.
 
 🔹 Example DestinationRule (Defining v1 & v2 Subsets)
+```
+apiVersion: networking.istio.io/v1beta1
+kind: DestinationRule
+metadata:
+  name: myapp
+spec:
+  host: myapp
+  subsets:
+    - name: v1
+      labels:
+        version: v1
+    - name: v2
+      labels:
+        version: v2
+  trafficPolicy:
+    loadBalancer:
+      simple: ROUND_ROBIN
+
+```
 
 #
 
