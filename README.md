@@ -152,4 +152,6 @@ https://narenchejara.medium.com/getting-started-with-jfrog-artifactory-ec5b58461
 
 https://medium.com/@riimoonriimoon/understanding-the-basics-of-jfrog-artifactory-8167ce582c86
 
+https://blog.devops.dev/deployed-java-application-using-maven-sonarqube-jfrog-artifactor-jenkins-argocd-and-finally-ac25420dcdf4
+
 ##
