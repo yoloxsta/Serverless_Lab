@@ -150,4 +150,6 @@ kubectl patch ingress nginx-ingress -p '{"spec": {"ingressClassName": "nginx"}}'
 ## Jfrog
 https://narenchejara.medium.com/getting-started-with-jfrog-artifactory-ec5b58461ab1
 
+https://medium.com/@riimoonriimoon/understanding-the-basics-of-jfrog-artifactory-8167ce582c86
+
 ##
