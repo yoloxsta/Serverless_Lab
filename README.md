@@ -147,4 +147,5 @@ kubectl patch svc prometheus-grafana -n prometheus-grafana -p '{"spec": {"type":
 kubectl patch ingress nginx-ingress -p '{"spec": {"ingressClassName": "nginx"}}' --type=merge
 
 ```
-##
+## Jfrog
+https://narenchejara.medium.com/getting-started-with-jfrog-artifactory-ec5b58461ab1
