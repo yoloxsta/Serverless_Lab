@@ -161,6 +161,8 @@ https://www.skynats.com/blog/how-to-install-consul-on-ubuntu-24/ (sudo mkdir -p 
 https://www.howtoforge.com/how-to-install-consul-server-on-ubuntu-22-04/
 
 ```
+>app.js
+
 npm init -y
 npm install express
 
@@ -184,6 +186,7 @@ app.listen(port, () => {
 ###
 
 ```
+> discovery-app.js
 npm init -y
 npm install axios
 
