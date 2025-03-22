@@ -159,3 +159,25 @@ https://blog.devops.dev/deployed-java-application-using-maven-sonarqube-jfrog-ar
 https://www.skynats.com/blog/how-to-install-consul-on-ubuntu-24/ (sudo mkdir -p /etc/consul.d)
 
 https://www.howtoforge.com/how-to-install-consul-server-on-ubuntu-22-04/
+
+```
+npm init -y
+npm install express
+
+const express = require('express');
+const app = express();
+const port = 8080;
+
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
+
+app.get('/health', (req, res) => {
+  res.send('OK');
+});
+
+app.listen(port, () => {
+  console.log(`App is listening on port ${port}`);
+});
+
+```
