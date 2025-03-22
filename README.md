@@ -157,3 +157,5 @@ https://blog.devops.dev/deployed-java-application-using-maven-sonarqube-jfrog-ar
 ## Consul
 
 https://www.skynats.com/blog/how-to-install-consul-on-ubuntu-24/ (sudo mkdir -p /etc/consul.d)
+
+https://www.howtoforge.com/how-to-install-consul-server-on-ubuntu-22-04/
