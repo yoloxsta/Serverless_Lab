@@ -156,4 +156,4 @@ https://blog.devops.dev/deployed-java-application-using-maven-sonarqube-jfrog-ar
 
 ## Consul
 
-https://www.skynats.com/blog/how-to-install-consul-on-ubuntu-24/
+https://www.skynats.com/blog/how-to-install-consul-on-ubuntu-24/ (sudo mkdir -p /etc/consul.d)
