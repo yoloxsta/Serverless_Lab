@@ -181,3 +181,40 @@ app.listen(port, () => {
 });
 
 ```
+###
+
+```
+npm init -y
+npm install axios
+
+
+const axios = require('axios');
+
+// Consul server URL
+const consulUrl = 'http://54.174.253.62:8500';
+
+async function discoverService() {
+  try {
+    // Query Consul to get details of the 'my-web-app' service
+    const response = await axios.get(`${consulUrl}/v1/catalog/service/my-web-app`);
+    const service = response.data[0];
+
+    // Get the service's IP and port
+    const serviceAddress = service.Address;
+    const servicePort = service.ServicePort;
+
+    // Print out the service discovery result
+    console.log(`Discovered my-web-app at http://${serviceAddress}:${servicePort}`);
+
+    // Optionally, make a request to the discovered service
+    const appResponse = await axios.get(`http://${serviceAddress}:${servicePort}`);
+    console.log('Response from my-web-app:', appResponse.data);
+  } catch (error) {
+    console.error('Error discovering service:', error);
+  }
+}
+
+// Start service discovery
+discoverService();
+
+```
