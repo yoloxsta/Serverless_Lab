@@ -221,3 +221,18 @@ async function discoverService() {
 discoverService();
 
 ```
+```
+> my-web-app.json
+
+{
+  "ID": "my-web-app-1",
+  "Name": "my-web-app",
+  "Tags": ["web"],
+  "Port": 8080,
+  "Check": {
+    "HTTP": "http://localhost:8080/health",
+    "Interval": "10s"
+  }
+}
+
+```
