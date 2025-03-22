@@ -194,7 +194,7 @@ npm install axios
 const axios = require('axios');
 
 // Consul server URL
-const consulUrl = 'http://54.174.253.62:8500';
+const consulUrl = 'http://server-ip:8500';
 
 async function discoverService() {
   try {
@@ -234,5 +234,10 @@ discoverService();
     "Interval": "10s"
   }
 }
+
+
+curl --request PUT \
+--data @my-web-app.json \
+http://server-ip:8500/v1/agent/service/register
 
 ```
