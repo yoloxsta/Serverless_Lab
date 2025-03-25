@@ -251,3 +251,5 @@ https://www.skynats.com/blog/how-to-install-graylog-on-ubuntu-24-04/
 
 https://blog.stackademic.com/centralize-logs-kubernetes-cluster-in-to-graylog-server-with-fluent-bit-log-collector-26c22e1b21f1
 
+https://medium.com/@kaant43/implementing-logging-in-nestjs-with-graylog-a-step-by-step-guide-4375004222f3
+
