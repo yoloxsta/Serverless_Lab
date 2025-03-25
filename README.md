@@ -241,4 +241,10 @@ curl --request PUT \
 http://server-ip:8500/v1/agent/service/register
 
 ```
-#
+### Graylog
+
+https://computingforgeeks.com/install-graylog-on-ubuntu-with-lets-encrypt/
+
+https://www.cherryservers.com/blog/graylog-install-ubuntu
+
+https://www.skynats.com/blog/how-to-install-graylog-on-ubuntu-24-04/
