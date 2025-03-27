@@ -363,7 +363,27 @@ cd GraylogJavaApp
 
 Create a new file src/main/resources/logback.xml and add:
 
+<configuration>
+    <appender name="GRAYLOG" class="de.siegmar.logbackgelf.GelfUdpAppender">
+        <graylogHost>ip</graylogHost>  <!-- Graylog Server IP -->
+        <graylogPort>12201</graylogPort>         <!-- Graylog GELF Port -->
+        <includeRawMessage>true</includeRawMessage>
+        <version>1.1</version>
+    </appender>
 
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="GRAYLOG"/>
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>
+
+###
 
 
 ```
