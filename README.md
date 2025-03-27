@@ -384,7 +384,28 @@ Create a new file src/main/resources/logback.xml and add:
 </configuration>
 
 ###
+Edit src/main/java/com/example/App.java
 
+package com.example;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class App {
+    private static final Logger logger = LoggerFactory.getLogger(App.class);
+
+    public static void main(String[] args) {
+        logger.info("✅ Application Started!");
+        logger.warn("⚠️ Warning log example");
+        logger.error("❌ Error log example");
+
+        for (int i = 1; i <= 5; i++) {
+            logger.info("📢 Log message number " + i);
+        }
+    }
+}
+
+###
 
 ```
 ##
