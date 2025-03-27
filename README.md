@@ -411,5 +411,9 @@ Run
 mvn clean package
 java -jar target/GraylogJavaApp-1.0-SNAPSHOT.jar
 
+ls -lh target/
+jar tf target/GraylogJavaApp-1.0-SNAPSHOT.jar META-INF/MANIFEST.MF
+
+
 ```
 ##
