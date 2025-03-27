@@ -256,6 +256,17 @@ https://medium.com/@kaant43/implementing-logging-in-nestjs-with-graylog-a-step-b
 ```
 sudo nano /etc/rsyslog.d/90-graylog.conf
 *.* @server-IP:5140;RSYSLOG_SyslogProtocol23Format
+sudo systemctl restart rsyslog
+
+## Java-App
+
+sudo apt install maven -y
+
+mkdir GraylogJavaApp
+cd GraylogJavaApp
+mvn archetype:generate -DgroupId=com.example -DartifactId=GraylogJavaApp -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+cd GraylogJavaApp
+
 
 
 
