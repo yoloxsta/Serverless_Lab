@@ -359,6 +359,12 @@ cd GraylogJavaApp
     </build>
 </project>
 
+###
+
+Create a new file src/main/resources/logback.xml and add:
+
+
+
 
 ```
 ##
