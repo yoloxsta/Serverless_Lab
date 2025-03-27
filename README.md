@@ -407,5 +407,9 @@ public class App {
 
 ###
 
+Run
+mvn clean package
+java -jar target/GraylogJavaApp-1.0-SNAPSHOT.jar
+
 ```
 ##
