@@ -416,4 +416,6 @@ jar tf target/GraylogJavaApp-1.0-SNAPSHOT.jar META-INF/MANIFEST.MF
 
 Testing > curl -X POST -H "Content-Type: application/json" -d '{"version":"1.1","host":"localhost","short_message":"Test message"}' http://ip:12201/gelf
 ```
-#
+### Signoz
+
+https://teamoptimizers.hashnode.dev/signoz-a-complete-setup-tour-with-logs
