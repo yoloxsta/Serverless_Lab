@@ -424,4 +424,4 @@ https://teamoptimizers.hashnode.dev/signoz-a-complete-setup-tour-with-logs
 
 https://medium.com/@ifeomafayeorika/understanding-observability-with-signoz-b4675fcb035b
 
-
+https://medium.com/@codewithalfredo/monitoring-in-production-a-guide-to-using-opentelemetry-with-nestjs-and-signoz-aeee59a8be0a
