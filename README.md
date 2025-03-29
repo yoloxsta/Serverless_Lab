@@ -419,3 +419,6 @@ Testing > curl -X POST -H "Content-Type: application/json" -d '{"version":"1.1",
 ### Signoz
 
 https://teamoptimizers.hashnode.dev/signoz-a-complete-setup-tour-with-logs
+
+https://teamoptimizers.hashnode.dev/signoz-a-complete-setup-tour-with-logs
+
