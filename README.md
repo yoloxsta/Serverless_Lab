@@ -420,7 +420,7 @@ Testing > curl -X POST -H "Content-Type: application/json" -d '{"version":"1.1",
 
 https://teamoptimizers.hashnode.dev/signoz-a-complete-setup-tour-with-logs
 
-https://teamoptimizers.hashnode.dev/signoz-a-complete-setup-tour-with-logs
+https://medium.com/@karanjanthe/observability-monitoring-in-nodejs-using-signoz-0b804c1605ec
 
 https://medium.com/@ifeomafayeorika/understanding-observability-with-signoz-b4675fcb035b
 
