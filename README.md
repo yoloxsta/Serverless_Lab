@@ -422,3 +422,6 @@ https://teamoptimizers.hashnode.dev/signoz-a-complete-setup-tour-with-logs
 
 https://teamoptimizers.hashnode.dev/signoz-a-complete-setup-tour-with-logs
 
+https://medium.com/@ifeomafayeorika/understanding-observability-with-signoz-b4675fcb035b
+
+
