@@ -428,4 +428,6 @@ https://medium.com/@ifeomafayeorika/understanding-observability-with-signoz-b467
 
 https://medium.com/@codewithalfredo/monitoring-in-production-a-guide-to-using-opentelemetry-with-nestjs-and-signoz-aeee59a8be0a
 
+https://medium.com/@jjhayes100/signoz-16-000-stars-and-rising-835ac08d5341
+
 ##
