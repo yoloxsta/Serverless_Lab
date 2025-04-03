@@ -431,4 +431,6 @@ https://medium.com/@codewithalfredo/monitoring-in-production-a-guide-to-using-op
 
 https://medium.com/@jjhayes100/signoz-16-000-stars-and-rising-835ac08d5341
 
-##
+### RDS Snapshot Sharing
+
+https://medium.com/@kosnaramanakumar/how-to-share-and-restore-an-rds-cluster-with-default-kms-in-another-aws-account-c6f79ad09203
