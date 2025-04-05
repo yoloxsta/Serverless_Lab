@@ -436,5 +436,7 @@ https://medium.com/@jjhayes100/signoz-16-000-stars-and-rising-835ac08d5341
 https://medium.com/@kosnaramanakumar/how-to-share-and-restore-an-rds-cluster-with-default-kms-in-another-aws-account-c6f79ad09203 
 
 ###Flutter
-
+```
 flutter create -t app --platforms android,ios --org com.firstapp setup
+
+```
