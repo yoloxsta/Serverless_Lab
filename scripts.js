@@ -1,4 +1,4 @@
-// Add your API endpoint here
+// Add your API endpoint 
 var API_ENDPOINT = "https://gv4jseyja8.execute-api.us-east-1.amazonaws.com/prod";
 
 // AJAX POST request to save student data
