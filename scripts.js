@@ -23,7 +23,7 @@ document.getElementById("savestudent").onclick = function(){
     });
 }
 
-// AJAX GET request to retrieve all students
+// AJAX GET request to retrieve all students data
 document.getElementById("getstudents").onclick = function(){  
     $.ajax({
         url: "API_ENDPOINT",
