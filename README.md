@@ -245,6 +245,8 @@ http://server-ip:8500/v1/agent/service/register
 ```
 ### Graylog
 
+https://blog.stackademic.com/centralize-logs-kubernetes-cluster-in-to-graylog-server-with-fluent-bit-log-collector-26c22e1b21f1
+
 https://computingforgeeks.com/install-graylog-on-ubuntu-with-lets-encrypt/
 
 https://www.cherryservers.com/blog/graylog-install-ubuntu
