@@ -451,3 +451,5 @@ flutter create -t app --platforms android,ios --org com.firstapp setup
 - https://surajsoni3332.medium.com/setting-up-elk-stack-on-kubernetes-a-step-by-step-guide-227690eb57f4
 
 - https://adex.ltd/elk-stack-deployment-on-kubernetes-with-helm-charts
+
+- https://dzone.com/articles/how-to-deploy-the-elk-stack-on-kubernetes
