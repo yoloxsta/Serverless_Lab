@@ -447,3 +447,5 @@ flutter create -t app --platforms android,ios --org com.firstapp setup
 ## ELK
 
 - https://medium.com/@muppedaanvesh/a-hands-on-guide-to-kubernetes-logging-using-elk-stack-filebeat-part-4-%EF%B8%8F-48e233443961
+
+- https://surajsoni3332.medium.com/setting-up-elk-stack-on-kubernetes-a-step-by-step-guide-227690eb57f4
