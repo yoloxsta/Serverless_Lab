@@ -453,3 +453,5 @@ flutter create -t app --platforms android,ios --org com.firstapp setup
 - https://adex.ltd/elk-stack-deployment-on-kubernetes-with-helm-charts
 
 - https://dzone.com/articles/how-to-deploy-the-elk-stack-on-kubernetes
+
+- https://readmedium.com/en/https:/blog.devops.dev/installing-elasticsearch-with-logstash-kibana-and-apm-using-elastic-cloud-on-kubernetes-operator-f214130bf199
