@@ -457,3 +457,5 @@ flutter create -t app --platforms android,ios --org com.firstapp setup
 - https://readmedium.com/en/https:/blog.devops.dev/installing-elasticsearch-with-logstash-kibana-and-apm-using-elastic-cloud-on-kubernetes-operator-f214130bf199
 
 - https://www.linode.com/docs/guides/how-to-deploy-the-elastic-stack-on-kubernetes/
+
+- https://phoenixnap.com/kb/elasticsearch-helm-chart (Minikube)
