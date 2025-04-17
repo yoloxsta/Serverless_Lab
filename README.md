@@ -542,6 +542,34 @@ COPY nginx.conf /etc/nginx/nginx.conf
 >> docker build -t frontend:latest .
   kind load docker-image frontend:latest --name metallb-kind
 
+- Backend
+
+> main.go
+
+package main
+
+import (
+	"fmt"
+	"net/http"
+)
+
+func handler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprint(w, "Hello from Backend")
+}
+
+func main() {
+	http.HandleFunc("/", handler)
+	http.ListenAndServe(":8080", nil)
+}
+
+> Dockerfile
+
+FROM golang:1.21-alpine
+WORKDIR /app
+COPY . .
+RUN go build -o main .
+CMD ["./main"]
+
 
 
 ```
