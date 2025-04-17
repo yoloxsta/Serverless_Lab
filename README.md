@@ -459,3 +459,89 @@ flutter create -t app --platforms android,ios --org com.firstapp setup
 - https://www.linode.com/docs/guides/how-to-deploy-the-elastic-stack-on-kubernetes/
 
 - https://phoenixnap.com/kb/elasticsearch-helm-chart (Minikube)
+
+### Hello World (Frontend-backend-kind)
+
+```
+- Frontend/
+
+> index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        #response {
+            margin-top: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Frontend</h1>
+    <button onclick="callBackend()">Click me!</button>
+    <p id="response"></p>
+
+    <script>
+        function callBackend() {
+            fetch('/api/')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('response').innerText = data;
+                })
+                .catch(error => {
+                    document.getElementById('response').innerText = 'Error: ' + error;
+                });
+        }
+    </script>
+</body>
+</html>
+
+> nginx.conf
+
+events {}
+http {
+  server {
+    listen 80;
+
+    location / {
+      root /usr/share/nginx/html;
+      index index.html;
+    }
+
+    location /api/ {
+      proxy_pass http://backend-service:8080/;
+    }
+  }
+}
+
+> Dockerfile
+
+FROM nginx:alpine
+
+# Copy the app code to the appropriate NGINX directory
+COPY . /usr/share/nginx/html
+
+# Copy the custom NGINX config
+COPY nginx.conf /etc/nginx/nginx.conf
+
+>> docker build -t frontend:latest .
+  kind load docker-image frontend:latest --name metallb-kind
+
+
+
+```
