@@ -644,6 +644,6 @@ spec:
       targetPort: 80
       nodePort: 30000
 
-
+>>> docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -f name=kind-control-plane -q)
 
 ```
