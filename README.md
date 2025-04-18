@@ -656,4 +656,6 @@ spec:
 
 - https://medium.com/@chrisdevops/this-is-a-short-guide-to-set-up-dynamic-volume-provisioning-on-an-aws-eks-cluster-16a48d1f8c74
 
+- https://youtu.be/JWi6lFUpSuw?si=g5qU0lJp38OLmjuT
+
 
