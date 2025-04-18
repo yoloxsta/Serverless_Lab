@@ -650,3 +650,9 @@ spec:
 ## EKS-EBS
 - https://harsh05.medium.com/simplifying-persistent-storage-in-amazon-eks-with-amazon-ebs-6516474159f3
 
+- https://medium.com/turknettech/how-to-use-ebs-and-efs-in-aws-eks-part-1-ebs-3508cb2cf1c4
+
+- https://medium.com/turknettech/how-to-use-ebs-and-efs-in-aws-eks-part-2-efs-35d5dba5a387
+
+
+
