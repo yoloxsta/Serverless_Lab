@@ -654,5 +654,6 @@ spec:
 
 - https://medium.com/turknettech/how-to-use-ebs-and-efs-in-aws-eks-part-2-efs-35d5dba5a387
 
+- https://medium.com/@chrisdevops/this-is-a-short-guide-to-set-up-dynamic-volume-provisioning-on-an-aws-eks-cluster-16a48d1f8c74
 
 
