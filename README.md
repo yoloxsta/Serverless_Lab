@@ -647,3 +647,6 @@ spec:
 >>> docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -f name=kind-control-plane -q)
 
 ```
+## EKS-EBS
+- https://harsh05.medium.com/simplifying-persistent-storage-in-amazon-eks-with-amazon-ebs-6516474159f3
+
