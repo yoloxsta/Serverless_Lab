@@ -660,5 +660,9 @@ spec:
 
 - https://youtu.be/B0CGyboZnjg?si=yZqg7fmb3V9bxDSF
 
+- https://freedium.cfd/https://awstip.com/the-need-for-ebs-csi-driver-in-amazon-eks-and-full-setup-276958b0a8c8
+
+
+
 
 
