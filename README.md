@@ -662,8 +662,11 @@ spec:
 
 - https://freedium.cfd/https://awstip.com/the-need-for-ebs-csi-driver-in-amazon-eks-and-full-setup-276958b0a8c8
 
-#
+## Prod-EKS
 
+- https://medium.com/@alex-tsvetkov/how-to-create-a-production-ready-eks-cluster-on-aws-using-terraform-part-1-vpc-e7e08d8045bb
+
+- https://blog.stackademic.com/configuring-production-ready-eks-clusters-with-terraform-and-github-actions-c046e8d44865
 
 
 
