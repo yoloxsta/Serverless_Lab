@@ -668,4 +668,6 @@ spec:
 
 - https://blog.stackademic.com/configuring-production-ready-eks-clusters-with-terraform-and-github-actions-c046e8d44865
 
-#
+## Cognito
+
+- https://medium.com/@jith/a-practical-introduction-to-aws-lambda-api-gateway-cognito-dynamo-db-s3-hosting-and-60002b22947a
