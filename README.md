@@ -442,6 +442,41 @@ npm init -y
 npm install express
 npm install @opentelemetry/sdk-node @opentelemetry/auto-instrumentations-node @opentelemetry/exporter-trace-otlp-http
 
+> index.js
+
+require('./tracing');
+
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send('Hello from Node.js with OpenTelemetry!');
+});
+
+app.listen(3000, () => {
+  console.log('App listening on port 3000');
+});
+
+> tracing.js
+
+// tracing.js
+const { NodeSDK } = require('@opentelemetry/sdk-node');
+const { OTLPTraceExporter } = require('@opentelemetry/exporter-trace-otlp-http');
+const { getNodeAutoInstrumentations } = require('@opentelemetry/auto-instrumentations-node');
+
+const sdk = new NodeSDK({
+  traceExporter: new OTLPTraceExporter({
+    url: 'https://ingest.us.signoz.cloud:443/v1/traces',
+    headers: {
+      'signoz-access-token': '******', // <-- your actual key here
+    },
+  }),
+  instrumentations: [getNodeAutoInstrumentations()],
+});
+
+sdk.start();
+
+
 ```
 
 ### RDS Snapshot Sharing
