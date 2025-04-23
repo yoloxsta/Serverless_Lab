@@ -437,6 +437,13 @@ https://medium.com/@jjhayes100/signoz-16-000-stars-and-rising-835ac08d5341
 
 https://medium.com/@gayatripawar401/implementation-of-an-opensource-apm-tool-using-signoz-and-opentelemetry-6c3cebea919e
 
+```
+npm init -y
+npm install express
+npm install @opentelemetry/sdk-node @opentelemetry/auto-instrumentations-node @opentelemetry/exporter-trace-otlp-http
+
+```
+
 ### RDS Snapshot Sharing
 
 https://medium.com/@kosnaramanakumar/how-to-share-and-restore-an-rds-cluster-with-default-kms-in-another-aws-account-c6f79ad09203 
