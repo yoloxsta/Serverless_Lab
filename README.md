@@ -479,8 +479,13 @@ sdk.start();
 
 >> node index.js
 ```
+#### for signoz metric
+```
+npm install @opentelemetry/exporter-metrics-otlp-http
 
-### RDS Snapshot Sharing
+
+```
+## RDS Snapshot Sharing
 
 https://medium.com/@kosnaramanakumar/how-to-share-and-restore-an-rds-cluster-with-default-kms-in-another-aws-account-c6f79ad09203 
 
