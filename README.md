@@ -441,6 +441,7 @@ https://medium.com/@gayatripawar401/implementation-of-an-opensource-apm-tool-usi
 npm init -y
 npm install express
 npm install @opentelemetry/sdk-node @opentelemetry/auto-instrumentations-node @opentelemetry/exporter-trace-otlp-http
+```
 
 > index.js
 
@@ -477,7 +478,6 @@ const sdk = new NodeSDK({
 sdk.start();
 
 >> node index.js
-```
 
 ### RDS Snapshot Sharing
 
