@@ -483,6 +483,40 @@ sdk.start();
 ```
 npm install @opentelemetry/exporter-metrics-otlp-http
 
+> tracing.js
+
+const { NodeSDK } = require('@opentelemetry/sdk-node');
+const { getNodeAutoInstrumentations } = require('@opentelemetry/auto-instrumentations-node');
+
+const { OTLPTraceExporter } = require('@opentelemetry/exporter-trace-otlp-http');
+const { OTLPMetricExporter } = require('@opentelemetry/exporter-metrics-otlp-http');
+const { PeriodicExportingMetricReader } = require('@opentelemetry/sdk-metrics');
+
+const traceExporter = new OTLPTraceExporter({
+  url: 'https://ingest.us.signoz.cloud:443/v1/traces',
+  headers: {
+    'signoz-access-token': '05bd*****4cc3',
+  },
+});
+
+const metricExporter = new OTLPMetricExporter({
+  url: 'https://ingest.us.signoz.cloud:443/v1/metrics',
+  headers: {
+    'signoz-access-token': '05bd*****4cc3',
+  },
+});
+
+const sdk = new NodeSDK({
+  traceExporter,
+  metricReader: new PeriodicExportingMetricReader({
+    exporter: metricExporter,
+    exportIntervalMillis: 10000,
+  }),
+  instrumentations: [getNodeAutoInstrumentations()],
+});
+
+sdk.start();
+
 
 ```
 ## RDS Snapshot Sharing
