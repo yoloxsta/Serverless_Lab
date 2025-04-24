@@ -756,4 +756,6 @@ spec:
 
 - https://medium.com/@jith/a-practical-introduction-to-aws-lambda-api-gateway-cognito-dynamo-db-s3-hosting-and-60002b22947a
 
-##
+## OpenTelementry
+
+- https://medium.com/@kedarnath93/understanding-opentelemetry-with-demo-example-d7991a4fc237
