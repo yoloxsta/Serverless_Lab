@@ -760,4 +760,8 @@ spec:
 
 - https://medium.com/@kedarnath93/understanding-opentelemetry-with-demo-example-d7991a4fc237
 
+- https://www.linkedin.com/posts/nasiullha-chaudhari_otel-app-project-step-by-step-document-activity-7232614782866980864-bsMb/?utm_source=share&utm_medium=member_desktop
+
+- 
+
 #
