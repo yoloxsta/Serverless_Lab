@@ -762,6 +762,6 @@ spec:
 
 - https://www.linkedin.com/posts/nasiullha-chaudhari_otel-app-project-step-by-step-document-activity-7232614782866980864-bsMb/?utm_source=share&utm_medium=member_desktop
 
-- 
+- https://medium.com/@codewithalfredo/monitoring-in-production-a-guide-to-using-opentelemetry-with-nestjs-and-signoz-aeee59a8be0a
 
 #
