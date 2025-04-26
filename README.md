@@ -764,4 +764,12 @@ spec:
 
 - https://medium.com/@codewithalfredo/monitoring-in-production-a-guide-to-using-opentelemetry-with-nestjs-and-signoz-aeee59a8be0a
 
-#
+### Signoz note 
+```
+OTEL_LOGS_EXPORTER=otlp \
+OTEL_EXPORTER_OTLP_ENDPOINT="https://ingest.us.signoz.cloud:443" \
+OTEL_EXPORTER_OTLP_HEADERS="signoz-access-token=***********" \
+OTEL_RESOURCE_ATTRIBUTES=service.name=spring-petclinic \
+java -javaagent:/mnt/c/Users/soetintaung/Downloads/opentelemetry-javaagent.jar -jar target/*.jar
+
+```
