@@ -773,3 +773,4 @@ OTEL_RESOURCE_ATTRIBUTES=service.name=spring-petclinic \
 java -javaagent:/mnt/c/Users/soetintaung/Downloads/opentelemetry-javaagent.jar -jar target/*.jar
 
 ```
+#
