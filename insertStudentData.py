@@ -24,7 +24,7 @@ def lambda_handler(event, context):
         }
     )
     
-    # Return a properly formatted JSON object
+    # Return a properly formatted JSON object!
     return {
         'statusCode': 200,
         'body': json.dumps('Student data saved successfully!')
