@@ -14,7 +14,7 @@ def lambda_handler(event, context):
     student_class = event['class']
     age = event['age']
     
-    # Write student data to the DynamoDB table and save the response in a variable
+    # Write student data to the DynamoDB table and save the response in a variable!
     response = table.put_item(
         Item={
             'studentid': student_id,
