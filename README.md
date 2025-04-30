@@ -772,6 +772,8 @@ OTEL_EXPORTER_OTLP_HEADERS="signoz-access-token=***********" \
 OTEL_RESOURCE_ATTRIBUTES=service.name=spring-petclinic \
 java -javaagent:/mnt/c/Users/soetintaung/Downloads/opentelemetry-javaagent.jar -jar target/*.jar
 
+- https://github.com/orgs/SigNoz/repositories
+
 ```
 ## Domain
 - https://towardsaws.com/how-to-add-a-domain-with-amazon-route-53-fc4452fa2b60
