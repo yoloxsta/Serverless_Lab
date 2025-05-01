@@ -774,6 +774,8 @@ java -javaagent:/mnt/c/Users/soetintaung/Downloads/opentelemetry-javaagent.jar -
 
 - https://github.com/orgs/SigNoz/repositories
 
+- https://dev.to/infrasity-learning/observability-with-signoz-for-java-app-16oe
+
 ```
 ## Domain
 - https://towardsaws.com/how-to-add-a-domain-with-amazon-route-53-fc4452fa2b60
