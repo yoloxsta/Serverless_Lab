@@ -779,3 +779,5 @@ java -javaagent:/mnt/c/Users/soetintaung/Downloads/opentelemetry-javaagent.jar -
 ```
 ## Domain
 - https://towardsaws.com/how-to-add-a-domain-with-amazon-route-53-fc4452fa2b60
+
+- https://medium.com/@lukwagoasuman236/step-by-step-guide-to-getting-an-ssl-tls-certificate-9d027856dec3
