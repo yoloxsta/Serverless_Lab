@@ -784,3 +784,5 @@ java -javaagent:/mnt/c/Users/soetintaung/Downloads/opentelemetry-javaagent.jar -
 
 ### Ansible
 - https://medium.com/@a_tsai5/creating-an-ec2-instance-using-ansible-764cf70015f6
+
+- https://medium.com/@somashekarvedadevops/ansible-control-node-manage-nodes-setup-657af3c6e163
