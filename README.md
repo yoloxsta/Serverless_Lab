@@ -781,3 +781,6 @@ java -javaagent:/mnt/c/Users/soetintaung/Downloads/opentelemetry-javaagent.jar -
 - https://towardsaws.com/how-to-add-a-domain-with-amazon-route-53-fc4452fa2b60
 
 - https://medium.com/@lukwagoasuman236/step-by-step-guide-to-getting-an-ssl-tls-certificate-9d027856dec3
+
+### Ansible
+- https://medium.com/@a_tsai5/creating-an-ec2-instance-using-ansible-764cf70015f6
