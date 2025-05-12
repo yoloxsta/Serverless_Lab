@@ -544,6 +544,7 @@ flutter create -t app --platforms android,ios --org com.firstapp setup
 
 - https://phoenixnap.com/kb/elasticsearch-helm-chart (Minikube)
 
+- https://medium.com/@davis.angwenyi/how-to-install-elastic-search-using-helm-into-kubernetes-de1fb1011076
 ### Hello World (Frontend-backend-kind)
 
 ```
