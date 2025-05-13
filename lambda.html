@@ -14,7 +14,7 @@
       responseElement.innerText = "Loading...";
 
       try {
-        const res = await fetch('https://zwpxi2iidl.execute-api.us-east-1.amazonaws.com/dev/hello');
+        const res = await fetch('Api gateway/dev/hello');
         const data = await res.text(); // use .json() if response is JSON
         responseElement.innerText = data;
       } catch (error) {
