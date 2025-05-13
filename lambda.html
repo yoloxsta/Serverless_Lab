@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello from Lambda</title>
+</head>
+<body>
+  <h1>Lambda Test</h1>
+  <button onclick="callLambda()">Click Me</button>
+  <p id="response"></p>
+
+  <script>
+    async function callLambda() {
+      const responseElement = document.getElementById('response');
+      responseElement.innerText = "Loading...";
+
+      try {
+        const res = await fetch('https://zwpxi2iidl.execute-api.us-east-1.amazonaws.com/dev/hello');
+        const data = await res.text(); // use .json() if response is JSON
+        responseElement.innerText = data;
+      } catch (error) {
+        responseElement.innerText = "Error: " + error;
+      }
+    }
+  </script>
+</body>
+</html>
