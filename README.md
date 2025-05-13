@@ -14,6 +14,8 @@ https://youtu.be/xSKRyv08mo8?si=lkz-MJXIYSwQRi-L (Build Serverless Web Applicati
 
 https://medium.com/@inderjotsingh141/aws-serverless-hands-on-project-b678f69f5e98
 
+https://medium.com/@madithatisreedhar123/a-simple-e2e-cicd-application-with-aws-amplify-5898f9439a35
+
 ##
 
 ## EFS
