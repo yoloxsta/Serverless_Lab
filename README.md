@@ -790,4 +790,6 @@ java -javaagent:/mnt/c/Users/soetintaung/Downloads/opentelemetry-javaagent.jar -
 
 - https://medium.com/@somashekarvedadevops/ansible-control-node-manage-nodes-setup-657af3c6e163
 
+- https://blog.devops.dev/simple-ansible-hands-on-project-on-aws-ec2-instances-dad09f9ee521
+
 ##
