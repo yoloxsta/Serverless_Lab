@@ -815,7 +815,9 @@ host2 ansible_host=<host2-ip> ansible_user=ec2-user ansible_ssh_private_key_file
       package:
         name: git
         state: present
+###
 
+ansible-playbook -i hosts.ini install_git.yml
 
 
 
