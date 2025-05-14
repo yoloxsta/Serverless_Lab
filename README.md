@@ -792,4 +792,33 @@ java -javaagent:/mnt/c/Users/soetintaung/Downloads/opentelemetry-javaagent.jar -
 
 - https://blog.devops.dev/simple-ansible-hands-on-project-on-aws-ec2-instances-dad09f9ee521
 
+```
+🔹 Connect to control node:
+ssh -i my-key.pem ec2-user@<control-node-ip>
+🔹 On control node, upload the key:
+scp -i my-key.pem my-key.pem ec2-user@<control-node-ip>:~
+chmod 400 ~/my-key.pem
+
+✅ Example hosts.ini for Ansible:
+
+[webservers]
+host1 ansible_host=<host1-ip> ansible_user=ec2-user ansible_ssh_private_key_file=~/my-key.pem
+host2 ansible_host=<host2-ip> ansible_user=ec2-user ansible_ssh_private_key_file=~/my-key.pem
+
+--- install_git.yml
+
+- name: Install Git on web servers
+  hosts: webservers
+  become: yes
+  tasks:
+    - name: Install Git
+      package:
+        name: git
+        state: present
+
+
+
+
+```
+
 ##
