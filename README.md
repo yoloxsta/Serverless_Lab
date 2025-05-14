@@ -802,8 +802,8 @@ chmod 400 ~/my-key.pem
 ✅ Example hosts.ini for Ansible:
 
 [webservers]
-host1 ansible_host=<host1-ip> ansible_user=ec2-user ansible_ssh_private_key_file=~/my-key.pem
-host2 ansible_host=<host2-ip> ansible_user=ec2-user ansible_ssh_private_key_file=~/my-key.pem
+host1 ansible_host=ip ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/ansible.pem
+host2 ansible_host=ip ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/ansible.pem
 
 --- install_git.yml
 
