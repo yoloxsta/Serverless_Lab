@@ -819,8 +819,5 @@ host2 ansible_host=ip ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubu
 
 ansible-playbook -i hosts.ini install_git.yml
 
-
-
 ```
-
 ##
