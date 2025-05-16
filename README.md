@@ -164,6 +164,8 @@ https://www.skynats.com/blog/how-to-install-consul-on-ubuntu-24/ (sudo mkdir -p 
 
 https://www.howtoforge.com/how-to-install-consul-server-on-ubuntu-22-04/
 
+https://medium.com/@nikitasharma1342/exploring-service-discovery-with-consul-a-practical-example-dfedacf1d465 
+
 ```
 >app.js
 
