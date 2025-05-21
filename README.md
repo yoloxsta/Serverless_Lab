@@ -824,3 +824,7 @@ ansible-playbook -i hosts.ini install_git.yml
 ```
 ## Kong
 - https://medium.com/api-leadership/expose-backend-api-using-kong-gateway-step-by-step-guide-fcd3aeeaba73
+
+## EFS
+
+- https://linuxbeast.com/blog/how-to-mount-amazon-efs-on-ec2-ubuntu-22-04-instance/
