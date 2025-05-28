@@ -145,6 +145,8 @@ https://aws.plainenglish.io/how-to-install-nginx-ingress-controller-in-aws-eks-6
 
 https://youtu.be/FgkSZbfkpCI?si=COYbqGpZghE7J2Oa
 
+https://medium.com/@tylerauerbeck/metallb-and-kind-loads-balanced-locally-1992d60111d8 (metal-lb)
+
 ```
 kubectl patch svc prometheus-grafana -n prometheus-grafana -p '{"spec": {"type": "NodePort"}}'
 
