@@ -143,12 +143,15 @@ https://blog.devops.dev/aws-eks-monitoring-d94827a0c57f
 
 https://aws.plainenglish.io/how-to-install-nginx-ingress-controller-in-aws-eks-6a15713ef4ab
 
+https://youtu.be/FgkSZbfkpCI?si=COYbqGpZghE7J2Oa
+
 ```
 kubectl patch svc prometheus-grafana -n prometheus-grafana -p '{"spec": {"type": "NodePort"}}'
 
 kubectl patch svc nginx-ingress-ingress-nginx-controller -n ingress-nginx --type=merge -p "{\"spec\": {\"type\": \"NodePort\"}}"
 
 kubectl patch ingress nginx-ingress -p '{"spec": {"ingressClassName": "nginx"}}' --type=merge
+
 
 ```
 ## Jfrog
