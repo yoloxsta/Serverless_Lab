@@ -834,4 +834,7 @@ ansible-playbook -i hosts.ini install_git.yml
 
 - https://linuxbeast.com/blog/how-to-mount-amazon-efs-on-ec2-ubuntu-22-04-instance/
 
-##
+## Let Encrypt
+
+- https://youtu.be/uEAzcLw_nSI?si=9UNQ4jJXrSS9LXiB
+
