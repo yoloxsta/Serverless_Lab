@@ -842,3 +842,5 @@ ansible-playbook -i hosts.ini install_git.yml
 
 - https://ougabriel.medium.com/how-to-configure-self-hosted-runners-for-your-ci-cd-pipelines-using-gitactions-fcaf516bef3a
 
+- https://blog.stackademic.com/how-to-create-a-self-hosted-github-action-runner-and-run-a-workflow-on-it-0607694bf257
+
