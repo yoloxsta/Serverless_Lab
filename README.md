@@ -838,3 +838,7 @@ ansible-playbook -i hosts.ini install_git.yml
 
 - https://youtu.be/uEAzcLw_nSI?si=9UNQ4jJXrSS9LXiB
 
+## Action (self-hosted)
+
+- https://ougabriel.medium.com/how-to-configure-self-hosted-runners-for-your-ci-cd-pipelines-using-gitactions-fcaf516bef3a
+
