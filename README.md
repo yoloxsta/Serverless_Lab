@@ -763,6 +763,7 @@ spec:
 - https://blog.stackademic.com/configuring-production-ready-eks-clusters-with-terraform-and-github-actions-c046e8d44865
 
 - https://blog.searce.com/optimizing-external-and-internal-access-to-multiple-kubernetes-services-in-eks-with-nginx-ingress-7c27d9fe937f (Ingress-EKS)
+
 ## Cognito
 
 - https://medium.com/@jith/a-practical-introduction-to-aws-lambda-api-gateway-cognito-dynamo-db-s3-hosting-and-60002b22947a
