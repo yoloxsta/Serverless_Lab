@@ -764,6 +764,8 @@ spec:
 
 - https://blog.searce.com/optimizing-external-and-internal-access-to-multiple-kubernetes-services-in-eks-with-nginx-ingress-7c27d9fe937f (Ingress-EKS)
 
+- https://youtu.be/FgkSZbfkpCI?si=u7vuOqv4hEZndcCH (Nlb ingress)
+
 ## Cognito
 
 - https://medium.com/@jith/a-practical-introduction-to-aws-lambda-api-gateway-cognito-dynamo-db-s3-hosting-and-60002b22947a
