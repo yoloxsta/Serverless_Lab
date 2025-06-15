@@ -766,6 +766,8 @@ spec:
 
 - https://youtu.be/FgkSZbfkpCI?si=u7vuOqv4hEZndcCH (Nlb ingress)
 
+- https://awswithatiq.com/how-to-create-an-nginx-ingress-controller-with-aws-classic-load-balancer/
+
 ## Cognito
 
 - https://medium.com/@jith/a-practical-introduction-to-aws-lambda-api-gateway-cognito-dynamo-db-s3-hosting-and-60002b22947a
