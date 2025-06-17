@@ -853,3 +853,6 @@ ansible-playbook -i hosts.ini install_git.yml
 ## Site to Site VPN 
 
 - https://medium.com/@jeff.turner0590/accelerated-vpn-site-to-site-vpn-step-by-step-guide-f6f09a9197d2
+
+- https://medium.com/@sruthianem89/project-10-implementing-a-site-to-site-vpn-in-aws-ef822e736277
+
