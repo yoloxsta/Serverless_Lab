@@ -858,3 +858,4 @@ ansible-playbook -i hosts.ini install_git.yml
 
 - https://youtu.be/XonAC_Z9s8Y?si=1kY_6hg5Lv5mA0Gz
 
+- https://youtu.be/h6YuZ9k9nzo?si=oWy6G4Oil7gsxzrv
