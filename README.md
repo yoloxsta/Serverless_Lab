@@ -856,3 +856,5 @@ ansible-playbook -i hosts.ini install_git.yml
 
 - https://medium.com/@sruthianem89/project-10-implementing-a-site-to-site-vpn-in-aws-ef822e736277
 
+- https://youtu.be/XonAC_Z9s8Y?si=1kY_6hg5Lv5mA0Gz
+
