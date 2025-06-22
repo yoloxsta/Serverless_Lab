@@ -863,3 +863,7 @@ ansible-playbook -i hosts.ini install_git.yml
 ## NAT
 
 - https://medium.com/@shubhamchavan4554/mastering-private-subnet-connectivity-aws-nat-gateway-guide-a35ecfd30190
+
+## SSL Case
+
+- https://www.youtube.com/watch?v=DEkygFyNbQg  
