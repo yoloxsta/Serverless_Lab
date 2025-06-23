@@ -898,6 +898,18 @@ RUN rm /etc/nginx/conf.d/default.conf; exit 0
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 
+---
+FROM maven:3.8.5-openjdk-17 as build
 
+WORKDIR /build
+COPY . .
+
+RUN mvn clean install -Dmaven.test.skip=true -f /build/pom.xml
+
+
+
+FROM openjdk:17.0.1-slim
+COPY --from=build /build/target/*.jar app.jar
+CMD java   -Duser.timezone=+06:30 -jar app.jar --spring.config.location=file:/deployment/config/application.properties
 
 ```
