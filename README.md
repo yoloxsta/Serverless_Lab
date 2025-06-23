@@ -867,3 +867,37 @@ ansible-playbook -i hosts.ini install_git.yml
 ## SSL Case
 
 - https://www.youtube.com/watch?v=DEkygFyNbQg  
+
+## Dockerfile
+
+```
+- node
+
+# Stage 1: Install Dependencies
+FROM node:16.15-alpine as base
+WORKDIR /base
+COPY package*.json yarn.lock ./
+RUN NOPOSTINSTALL=1 yarn install --frozen-lockfile
+
+# Stage 2: Build
+FROM base as build
+WORKDIR /build
+COPY . .
+# RUN cp /build/cicd/prod/.env.example .env
+COPY --from=base /base ./
+RUN yarn cache clean && yarn build
+
+# Stage 3: Running Prod
+FROM nginx:alpine as prod
+COPY --from=build /build/dist /usr/share/nginx/html
+
+# overrides default nginx conf
+COPY nginx.conf /etc/nginx/conf.d
+RUN rm /etc/nginx/conf.d/default.conf; exit 0
+
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+
+
+
+```
