@@ -912,4 +912,14 @@ FROM openjdk:17.0.1-slim
 COPY --from=build /build/target/*.jar app.jar
 CMD java   -Duser.timezone=+06:30 -jar app.jar --spring.config.location=file:/deployment/config/application.properties
 
+---
+
+#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
+
+COPY . App/
+WORKDIR /App
+ENV TZ="Asia/Yangon"
+ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 ```
