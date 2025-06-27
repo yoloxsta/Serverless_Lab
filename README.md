@@ -852,6 +852,8 @@ ansible-playbook -i hosts.ini install_git.yml
 
 - https://faun.pub/continuous-integration-of-java-project-with-github-actions-7a8a0e8246ef
 
+- https://shrihariharidas73.medium.com/deploying-a-simple-web-application-to-aws-ecs-with-github-actions-and-terraform-dd57200baa50
+
 ## Site to Site VPN 
 
 - https://medium.com/@jeff.turner0590/accelerated-vpn-site-to-site-vpn-step-by-step-guide-f6f09a9197d2
@@ -925,3 +927,5 @@ WORKDIR /App
 ENV TZ="Asia/Yangon"
 ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 ```
+
+#
