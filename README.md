@@ -931,3 +931,5 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 ## Homework
 
 - https://github.com/chyke007/Yum-food
+
+- https://github.com/realexcel2021/3-tier-Architecture-design
