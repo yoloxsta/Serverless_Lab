@@ -935,3 +935,5 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 - https://github.com/realexcel2021/3-tier-Architecture-design
 
 - https://sheriffexcel.hashnode.dev/3-tier-architecture-on-aws-using-terraform (iac day-01)
+
+- https://medium.com/@sophie.cosgrove/create-an-internal-amazon-api-gateway-with-terraform-6a7d319fc0fd (Api gateway + Terraform)
