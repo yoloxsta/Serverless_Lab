@@ -933,3 +933,5 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 - https://github.com/chyke007/Yum-food
 
 - https://github.com/realexcel2021/3-tier-Architecture-design
+
+- https://sheriffexcel.hashnode.dev/3-tier-architecture-on-aws-using-terraform (iac day-01)
