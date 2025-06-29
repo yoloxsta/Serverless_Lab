@@ -939,3 +939,5 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 - https://medium.com/@sophie.cosgrove/create-an-internal-amazon-api-gateway-with-terraform-6a7d319fc0fd (Api gateway + Terraform)
 
 - https://saimanasak.medium.com/terraform-serverless-application-using-aws-lambda-and-api-gateway-366a09348abe 
+
+- https://medium.com/@rvisingh1221/integrate-api-gateway-with-aws-eks-nlb-e8f72be32d68
