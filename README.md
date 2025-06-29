@@ -937,3 +937,5 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 - https://sheriffexcel.hashnode.dev/3-tier-architecture-on-aws-using-terraform (iac day-01)
 
 - https://medium.com/@sophie.cosgrove/create-an-internal-amazon-api-gateway-with-terraform-6a7d319fc0fd (Api gateway + Terraform)
+
+- https://saimanasak.medium.com/terraform-serverless-application-using-aws-lambda-and-api-gateway-366a09348abe 
