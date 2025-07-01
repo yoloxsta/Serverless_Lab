@@ -945,3 +945,5 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 - https://learnkube.com/kubernetes-ingress-api-gateway 
 
 - https://collin-smith.medium.com/deploying-python-lambdas-and-api-gateway-with-terraform-083b5c0b960c
+
+#
