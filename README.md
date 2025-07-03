@@ -946,4 +946,8 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 
 - https://collin-smith.medium.com/deploying-python-lambdas-and-api-gateway-with-terraform-083b5c0b960c
 
-#
+## Gitlab
+
+- https://youtu.be/9kGC2CrFJME?si=tdU3nsPaQQlfS4Aq
+
+-
