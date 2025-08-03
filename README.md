@@ -952,4 +952,8 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 
 ## .net
 
-- https://medium.com/@fsilva0703/deploy-asp-net-apps-to-kubernetes-3287289f8c4b 
+- https://medium.com/@fsilva0703/deploy-asp-net-apps-to-kubernetes-3287289f8c4b
+
+## LVM
+
+- https://harsh05.medium.com/power-of-lvm-in-linux-a-comprehensive-practical-guide-7b4f0dd55527
