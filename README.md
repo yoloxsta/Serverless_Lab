@@ -957,3 +957,7 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 ## LVM
 
 - https://harsh05.medium.com/power-of-lvm-in-linux-a-comprehensive-practical-guide-7b4f0dd55527
+
+## Nest-Next
+
+- https://github.com/pankajgurav005/Full-Stack-NestJS-NextJS
