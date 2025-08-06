@@ -121,7 +121,6 @@ spec:
 🔹 Conclusion
 - Use VirtualService to control request routing (paths, weights, retries).
 - Use DestinationRule to define subsets and apply traffic policies.
-#
 
 ## Monitoring
 
