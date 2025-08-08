@@ -958,3 +958,7 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 ## Nest-Next
 
 - https://github.com/pankajgurav005/Full-Stack-NestJS-NextJS
+
+## Karpenter
+
+- https://dhruv-mavani.medium.com/implementing-karpenter-on-eks-and-autoscaling-your-cluster-for-optimal-performance-f01a507a8f70
