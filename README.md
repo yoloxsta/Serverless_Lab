@@ -962,3 +962,10 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 ## Karpenter
 
 - https://dhruv-mavani.medium.com/implementing-karpenter-on-eks-and-autoscaling-your-cluster-for-optimal-performance-f01a507a8f70
+
+## Vault
+
+- https://medium.com/@muppedaanvesh/a-hand-on-guide-to-vault-in-kubernetes-%EF%B8%8F-1daf73f331bd
+- https://blogs.learningdevops.com/setting-up-hashicorp-vault-on-kubernetes-a-beginner-friendly-guide-9208a861ca96
+- https://thamizhelango.medium.com/deploying-hashicorp-vault-in-kubernetes-a-complete-production-guide-59def00068f4
+- https://heshandharmasena.medium.com/hashicorp-vault-on-minikube-4560bce583b9
