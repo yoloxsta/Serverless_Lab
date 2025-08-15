@@ -969,3 +969,7 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 - https://blogs.learningdevops.com/setting-up-hashicorp-vault-on-kubernetes-a-beginner-friendly-guide-9208a861ca96
 - https://thamizhelango.medium.com/deploying-hashicorp-vault-in-kubernetes-a-complete-production-guide-59def00068f4
 - https://heshandharmasena.medium.com/hashicorp-vault-on-minikube-4560bce583b9
+
+## Redash 
+
+- https://github.com/getredash/setup
