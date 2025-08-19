@@ -99,7 +99,6 @@ spec:
   trafficPolicy:
     loadBalancer:
       simple: ROUND_ROBIN
-
 ```
 🔹 Key Differences
 
