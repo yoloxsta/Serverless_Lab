@@ -972,3 +972,7 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 ## Redash 
 
 - https://github.com/getredash/setup
+
+## Locust
+
+- https://github.com/mosesliao/kubernetes-locust
