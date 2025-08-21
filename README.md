@@ -976,3 +976,4 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 ## Locust
 
 - https://github.com/mosesliao/kubernetes-locust
+- https://advishnuprasad.github.io/blog/2024/02/23/locust-in-kubernetes/
