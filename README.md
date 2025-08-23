@@ -977,3 +977,7 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 
 - https://github.com/mosesliao/kubernetes-locust
 - https://advishnuprasad.github.io/blog/2024/02/23/locust-in-kubernetes/
+
+## Kyverno
+
+- https://tanmaybatham.medium.com/introduction-to-kyverno-kubernetes-policy-management-made-easy-2017b01c0b29
