@@ -764,6 +764,8 @@ spec:
 
 - https://awswithatiq.com/how-to-create-an-nginx-ingress-controller-with-aws-classic-load-balancer/
 
+- https://alihalabyah.medium.com/building-a-production-ready-kubernetes-platform-a-complete-guide-to-ci-cd-with-argocd-eks-84bb7d9b6623
+
 ## Cognito
 
 - https://medium.com/@jith/a-practical-introduction-to-aws-lambda-api-gateway-cognito-dynamo-db-s3-hosting-and-60002b22947a
