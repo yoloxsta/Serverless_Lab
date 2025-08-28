@@ -986,3 +986,7 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 ## Kyverno
 
 - https://tanmaybatham.medium.com/introduction-to-kyverno-kubernetes-policy-management-made-easy-2017b01c0b29
+
+## Argo
+- https://aws.plainenglish.io/how-to-set-up-argo-cd-in-eks-cluster-d11858ea826a
+- https://blogs.opsflow.in/ci-cd-implementation-with-github-actions-and-argo-cd-a-guide-to-multi-architecture-images-73cb78ac11f6
