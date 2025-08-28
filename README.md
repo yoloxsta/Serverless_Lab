@@ -992,4 +992,4 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 - https://blogs.opsflow.in/ci-cd-implementation-with-github-actions-and-argo-cd-a-guide-to-multi-architecture-images-73cb78ac11f6
 - https://blog.devops.dev/provision-eks-cluster-with-argocd-by-terraform-4ba07a891463
 - https://freedium.cfd/https://blog.devops.dev/gitops-and-service-mesh-in-action-deploying-microservices-with-argocd-istio-on-aws-eks-fda8dfdba415
-  
+- https://medium.com/@calvineotieno010/gitops-with-argocd-eks-and-gitlab-ci-using-terraform-2a3c094b4ea3
