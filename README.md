@@ -990,3 +990,4 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 ## Argo
 - https://aws.plainenglish.io/how-to-set-up-argo-cd-in-eks-cluster-d11858ea826a
 - https://blogs.opsflow.in/ci-cd-implementation-with-github-actions-and-argo-cd-a-guide-to-multi-architecture-images-73cb78ac11f6
+- https://blog.devops.dev/provision-eks-cluster-with-argocd-by-terraform-4ba07a891463
