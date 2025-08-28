@@ -948,6 +948,8 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 
 - https://youtu.be/9kGC2CrFJME?si=tdU3nsPaQQlfS4Aq
 - https://blog.devops.dev/setting-up-gitlab-on-aws-ec2-729e4c664885
+- https://www.atlantic.net/dedicated-server-hosting/how-to-install-gitlab-ce-on-ubuntu-24-04/
+- https://technoupdate.medium.com/how-to-install-and-configure-gitlab-on-ubuntu-22-04-lts-cced858ce0f4
 ## .net
 
 - https://medium.com/@fsilva0703/deploy-asp-net-apps-to-kubernetes-3287289f8c4b
