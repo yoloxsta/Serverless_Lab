@@ -519,8 +519,6 @@ const sdk = new NodeSDK({
 });
 
 sdk.start();
-
-
 ```
 ## RDS Snapshot Sharing
 
