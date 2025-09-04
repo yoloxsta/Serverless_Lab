@@ -990,3 +990,54 @@ ENTRYPOINT ["dotnet", "wxyz.UI.dll"]
 - https://freedium.cfd/https://blog.devops.dev/gitops-and-service-mesh-in-action-deploying-microservices-with-argocd-istio-on-aws-eks-fda8dfdba415
 - https://medium.com/@calvineotieno010/gitops-with-argocd-eks-and-gitlab-ci-using-terraform-2a3c094b4ea3
 - https://slycreator.medium.com/seamless-ci-cd-for-eks-dockerized-app-deployment-with-github-actions-argocd-and-terraform-c44f083b9ebb
+
+## Rancher
+```
+helm repo add jetstack https://charts.jetstack.io
+helm repo update
+
+helm install cert-manager jetstack/cert-manager \
+  --namespace cert-manager \
+  --create-namespace \
+  --version v1.16.1 \
+  --set installCRDs=true
+
+Verify:
+
+kubectl get pods -n cert-manager
+
+---
+helm install rancher rancher-latest/rancher \
+  --namespace cattle-system \
+  --create-namespace \
+  --set hostname=rancher.domain.com \ 
+  --set replicas=3
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: rancher
+  namespace: cattle-system
+  annotations:
+    kubernetes.io/ingress.class: alb
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/target-type: ip
+    alb.ingress.kubernetes.io/listen-ports: '[{"HTTP":80}, {"HTTPS":443}]'
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:
+    alb.ingress.kubernetes.io/healthcheck-path: /healthz
+    alb.ingress.kubernetes.io/success-codes: 200-308
+spec:
+  rules:
+    - host: rancher.domain.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: rancher
+                port:
+                  number: 80
+
+```
