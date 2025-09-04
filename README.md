@@ -1007,6 +1007,10 @@ Verify:
 kubectl get pods -n cert-manager
 
 ---
+helm repo add rancher-latest https://releases.rancher.com/server-charts/latest
+helm repo update
+
+---
 helm install rancher rancher-latest/rancher \
   --namespace cattle-system \
   --create-namespace \
