@@ -143,6 +143,47 @@ https://youtu.be/FgkSZbfkpCI?si=COYbqGpZghE7J2Oa
 https://medium.com/@tylerauerbeck/metallb-and-kind-loads-balanced-locally-1992d60111d8 (metal-lb)
 
 ```
+watch above yt link
+
+kubectl patch svc -n ingress-nginx nginx-ingress-ingress-nginx-controller \
+  -p '{"metadata":{"annotations":{"service.beta.kubernetes.io/aws-load-balancer-scheme":"internet-facing"}}}'
+
+---
+Find your VPC ID:
+
+aws eks describe-cluster --name <your-cluster-name> --query "cluster.resourcesVpcConfig.vpcId" --output text
+
+
+List all subnets in the VPC with tags:
+
+aws ec2 describe-subnets --filters "Name=vpc-id,Values=<your-vpc-id>" \
+  --query "Subnets[*].{ID:SubnetId,AZ:AvailabilityZone,Tags:Tags}" --output table
+
+
+Pick your public subnets (the ones with a route to an Internet Gateway).
+Then tag them (replace subnet-xxxx and <your-cluster-name>):
+
+aws ec2 create-tags --resources subnet-xxxx \
+  --tags Key=kubernetes.io/cluster/<your-cluster-name>,Value=shared \
+         Key=kubernetes.io/role/elb,Value=1
+
+---
+example
+---
+# Public_Subnet1
+aws ec2 create-tags --resources subnet- \
+  --tags Key=kubernetes.io/cluster/EKS-UAT,Value=shared \
+         Key=kubernetes.io/role/elb,Value=1 \
+  --profile xyz
+
+# Public_Subnet2
+aws ec2 create-tags --resources subnet- \
+  --tags Key=kubernetes.io/cluster/EKS-UAT,Value=shared \
+         Key=kubernetes.io/role/elb,Value=1 \
+  --profile xyz
+
+```
+```
 kubectl patch svc prometheus-grafana -n prometheus-grafana -p '{"spec": {"type": "NodePort"}}'
 
 kubectl patch svc nginx-ingress-ingress-nginx-controller -n ingress-nginx --type=merge -p "{\"spec\": {\"type\": \"NodePort\"}}"
