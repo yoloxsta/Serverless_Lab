@@ -182,7 +182,6 @@ aws ec2 create-tags --resources subnet- \
          Key=kubernetes.io/role/elb,Value=1 \
   --profile xyz
 
-```
 #########
 helm install nginx-ingress ingress-nginx/ingress-nginx \
   --namespace ingress-nginx \
@@ -190,7 +189,28 @@ helm install nginx-ingress ingress-nginx/ingress-nginx \
   --set controller.service.annotations."service\.beta\.kubernetes\.io/aws-load-balancer-scheme"=internet-facing \
   --set controller.service.annotations."service\.beta\.kubernetes\.io/aws-load-balancer-subnets"=subnet-id \
   --set controller.service.annotations."service\.beta\.kubernetes\.io/aws-load-balancer-eip-allocations"=eipalloc-eipid
+---
+Most likely, the EIP is not yet associated because either:
 
+The NLB creation is still in progress (it can take a few minutes).
+
+The Helm annotations for aws-load-balancer-eip-allocations or aws-load-balancer-subnets were not applied correctly.
+
+You can check the annotations applied to the service:
+
+kubectl describe svc -n ingress-nginx nginx-ingress-ingress-nginx-controller
+
+
+Look for:
+
+Annotations:
+  service.beta.kubernetes.io/aws-load-balancer-eip-allocations: eipalloc-
+  service.beta.kubernetes.io/aws-load-balancer-subnets: subnet-
+  service.beta.kubernetes.io/aws-load-balancer-scheme: internet-facing
+  service.beta.kubernetes.io/aws-load-balancer-type: nlb
+
+
+If these are correct, then wait a few minutes. AWS NLB will assign the EIP to the NLB once it’s fully provisioned.
 ```
 kubectl patch svc prometheus-grafana -n prometheus-grafana -p '{"spec": {"type": "NodePort"}}'
 
