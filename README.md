@@ -183,6 +183,14 @@ aws ec2 create-tags --resources subnet- \
   --profile xyz
 
 ```
+#########
+helm install nginx-ingress ingress-nginx/ingress-nginx \
+  --namespace ingress-nginx \
+  --set controller.service.annotations."service\.beta\.kubernetes\.io/aws-load-balancer-type"=nlb \
+  --set controller.service.annotations."service\.beta\.kubernetes\.io/aws-load-balancer-scheme"=internet-facing \
+  --set controller.service.annotations."service\.beta\.kubernetes\.io/aws-load-balancer-subnets"=subnet-id \
+  --set controller.service.annotations."service\.beta\.kubernetes\.io/aws-load-balancer-eip-allocations"=eipalloc-eipid
+
 ```
 kubectl patch svc prometheus-grafana -n prometheus-grafana -p '{"spec": {"type": "NodePort"}}'
 
