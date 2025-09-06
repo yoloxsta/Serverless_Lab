@@ -211,6 +211,57 @@ Annotations:
 
 
 If these are correct, then wait a few minutes. AWS NLB will assign the EIP to the NLB once it’s fully provisioned.
+
+---
+
+ACM will give you 3 files in PEM format:
+
+certificate.pem → public certificate
+
+private-key.pem → private key
+
+certificate-chain.pem → intermediate chain
+
+---
+
+cat certificate.txt certificate_chain.txt > hellosta.crt
+
+openssl rsa -in hellosta.key -out hellosta-decrypted.key 
+Enter pass phrase for hellosta.key:
+(you will get .key)
+
+kubectl create secret tls hellosta-tls \
+  --cert=hellosta.crt \
+  --key=hellosta-decrypted.key \
+  -n uat
+
+---
+>> ingress file
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: hellotest-ingress
+  namespace: uat
+  annotations:
+    kubernetes.io/ingress.class: nginx
+spec:
+  tls:
+  - hosts:
+    - hellosta.maharstg.com
+    secretName: hellosta-tls   # The TLS secret you created
+  rules:
+  - host: hellosta.maharstg.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: hellotest
+            port:
+              number: 80
+
 ```
 kubectl patch svc prometheus-grafana -n prometheus-grafana -p '{"spec": {"type": "NodePort"}}'
 
