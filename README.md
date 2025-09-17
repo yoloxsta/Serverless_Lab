@@ -166,7 +166,6 @@ Then tag them (replace subnet-xxxx and <your-cluster-name>):
 aws ec2 create-tags --resources subnet-xxxx \
   --tags Key=kubernetes.io/cluster/<your-cluster-name>,Value=shared \
          Key=kubernetes.io/role/elb,Value=1
-
 ---
 example
 ---
