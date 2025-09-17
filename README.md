@@ -200,7 +200,6 @@ You can check the annotations applied to the service:
 
 kubectl describe svc -n ingress-nginx nginx-ingress-ingress-nginx-controller
 
-
 Look for:
 
 Annotations:
