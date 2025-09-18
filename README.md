@@ -532,7 +532,6 @@ public class App {
 }
 
 ###
-
 Run
 mvn clean package
 java -jar target/GraylogJavaApp-1.0-SNAPSHOT.jar
@@ -563,8 +562,7 @@ npm init -y
 npm install express
 npm install @opentelemetry/sdk-node @opentelemetry/auto-instrumentations-node @opentelemetry/exporter-trace-otlp-http
 
-
-> index.js
+z index.js
 
 require('./tracing');
 
