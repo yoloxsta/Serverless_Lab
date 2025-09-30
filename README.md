@@ -284,6 +284,7 @@ https://www.howtoforge.com/how-to-install-consul-server-on-ubuntu-22-04/
 https://medium.com/@nikitasharma1342/exploring-service-discovery-with-consul-a-practical-example-dfedacf1d465 
 
 ```
+```
 >app.js
 
 npm init -y
