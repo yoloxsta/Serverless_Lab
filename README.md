@@ -16,7 +16,6 @@ https://medium.com/@inderjotsingh141/aws-serverless-hands-on-project-b678f69f5e9
 
 https://medium.com/@madithatisreedhar123/a-simple-e2e-cicd-application-with-aws-amplify-5898f9439a35
 
-##
 ## EFS
 https://harsh05.medium.com/amazon-efs-a-comprehensive-guide-with-practical-steps-2c4a4b528fde
 
