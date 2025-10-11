@@ -179,7 +179,7 @@ aws ec2 create-tags --resources subnet- \
          Key=kubernetes.io/role/elb,Value=1 \
   --profile xyz
 
-#########
+########
 helm install nginx-ingress ingress-nginx/ingress-nginx \
   --namespace ingress-nginx \
   --set controller.service.annotations."service\.beta\.kubernetes\.io/aws-load-balancer-type"=nlb \
