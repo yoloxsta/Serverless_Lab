@@ -230,7 +230,6 @@ kubectl create secret tls hellosta-tls \
   --cert=hellosta.crt \
   --key=hellosta-decrypted.key \
   -n uat
-
 ---
 >> ingress file
 
