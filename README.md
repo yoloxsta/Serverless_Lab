@@ -311,7 +311,6 @@ app.listen(port, () => {
 npm init -y
 npm install axios
 
-
 const axios = require('axios');
 
 // Consul server URL
