@@ -355,7 +355,6 @@ discoverService();
   }
 }
 
-
 curl --request PUT \
 --data @my-web-app.json \
 http://server-ip:8500/v1/agent/service/register
