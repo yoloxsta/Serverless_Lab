@@ -157,7 +157,6 @@ List all subnets in the VPC with tags:
 aws ec2 describe-subnets --filters "Name=vpc-id,Values=<your-vpc-id>" \
   --query "Subnets[*].{ID:SubnetId,AZ:AvailabilityZone,Tags:Tags}" --output table
 
-
 Pick your public subnets (the ones with a route to an Internet Gateway).
 Then tag them (replace subnet-xxxx and <your-cluster-name>):
 
