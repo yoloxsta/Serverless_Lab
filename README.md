@@ -304,7 +304,6 @@ app.listen(port, () => {
 
 ```
 ###
-
 ```
 > discovery-app.js
 npm init -y
