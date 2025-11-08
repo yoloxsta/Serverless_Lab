@@ -257,6 +257,7 @@ spec:
               number: 80
 
 ```
+```
 kubectl patch svc prometheus-grafana -n prometheus-grafana -p '{"spec": {"type": "NodePort"}}'
 
 kubectl patch svc nginx-ingress-ingress-nginx-controller -n ingress-nginx --type=merge -p "{\"spec\": {\"type\": \"NodePort\"}}"
@@ -279,6 +280,7 @@ https://www.howtoforge.com/how-to-install-consul-server-on-ubuntu-22-04/
 
 https://medium.com/@nikitasharma1342/exploring-service-discovery-with-consul-a-practical-example-dfedacf1d465 
 
+```
 ```
 ```
 >app.js
