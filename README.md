@@ -140,6 +140,8 @@ https://youtu.be/FgkSZbfkpCI?si=COYbqGpZghE7J2Oa
 
 https://medium.com/@tylerauerbeck/metallb-and-kind-loads-balanced-locally-1992d60111d8 (metal-lb)
 
+https://abhishekamralkar.medium.com/kubernetes-namespace-stuck-in-terminating-state-68a008e36e5d
+
 ```
 watch above yt link
 
